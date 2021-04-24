@@ -14,4 +14,4 @@ HEATER ON - SWITCH 2
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
-|hey|hey|hey|
+|[![CI](https://github.com/sruthissree/embedded_Activity/actions/workflows/main.yml/badge.svg)](https://github.com/sruthissree/embedded_Activity/actions/workflows/main.yml)|hey|hey|
