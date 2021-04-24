@@ -6,8 +6,7 @@
 
 [![CI](https://github.com/sruthissree/embedded_Activity/actions/workflows/main.yml/badge.svg)](https://github.com/sruthissree/embedded_Activity/actions/workflows/main.yml)
 
-## Activity 1
-## Seat Occupancy and Heater turned ON
+## Activity 1 - Seat Occupancy and Heater turned ON
 SEAT OCCUPIED - SWITCH 1
 HEATER ON - SWITCH 2
 
