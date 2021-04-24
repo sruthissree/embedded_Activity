@@ -1,4 +1,12 @@
-/*
+/**
+ * @file main.c
+ * @author Sruthissree R (sruthissreerangha2000@gmail.com)
+ * @brief program to switch ON LED if Seat is occupied and heater turned on
+ * @version 0.1
+ * @date 2021-04-24
+ * 
+ * @copyright Copyright (c) 2021
+ * 
  */
 
 #include "Activity_1_header.h"
