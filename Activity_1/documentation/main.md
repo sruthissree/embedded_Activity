@@ -1,1 +1,1 @@
-@mainpage Blinky Example by Bharath G @subpage project_main.c
+@mainpage Seat Occupancy and Heater ON by Sruthissree R @subpage main.c
