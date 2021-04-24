@@ -10,7 +10,7 @@
  */
 #ifndef ACTIVITY_1_HEADER_H_INCLUDED
 #define ACTIVITY_1_HEADER_H_INCLUDED
-
+#define F_CPU 16000000UL 
 #include <avr/io.h>
 #include <util/delay.h>
 
