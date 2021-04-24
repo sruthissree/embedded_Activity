@@ -2,15 +2,23 @@
 
 |ON|OFF|
 |:--:|:--:|
-|\image html ON.png||
 
 ## Code 
 ```
-	for(;;)
-	{
-        change_led_state(HIGH);
-		delay_ms(LED_ON_TIME);
-        change_led_state(LOW);
-		delay_ms(LED_OFF_TIME);	
-	}
+	while(1)
+    {
+        if(PINB & (1<<PINB0)){
+            if(PINB & (1<<PINB1)){
+                PORTB |= (1<<PINB2);
+            }
+            else{
+                PORTB &= ~(1<<PINB2);
+            }
+        }
+
+        else{
+            PORTB &= ~(1<<PINB2);
+        }
+        _delay_ms(1000);
+    }
 ```
