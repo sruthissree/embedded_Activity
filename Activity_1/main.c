@@ -1,8 +1,8 @@
 /*
  */
 
-#include <avr/io.h>
-#include <util/delay.h>
+#include "Activity_1_header.h"
+
 int main(void)
 {
     DDRB &= ~(1<<PINB0);
