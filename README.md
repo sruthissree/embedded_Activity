@@ -4,12 +4,12 @@
 |:--:|:--:|:--:|
 |[![CI](https://github.com/sruthissree/embedded_Activity/actions/workflows/main.yml/badge.svg)](https://github.com/sruthissree/embedded_Activity/actions/workflows/main.yml)|[![Cppcheck](https://github.com/sruthissree/embedded_Activity/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/sruthissree/embedded_Activity/actions/workflows/CodeQulaity.yml)|[![Compile-Linux](https://github.com/sruthissree/embedded_Activity/actions/workflows/Compile.yml/badge.svg)](https://github.com/sruthissree/embedded_Activity/actions/workflows/Compile.yml)|
 
-# Activity 1
-# Seat Occupancy and Heater turned ON
+## Activity 1
+## Seat Occupancy and Heater turned ON
 SEAT OCCUPIED - SWITCH 1
 HEATER ON - SWITCH 2
 
-## In Action
+### In Action
 
 |SEAT OCCUPIED|YES|NO|
 |:--:|:--:|:--:|
