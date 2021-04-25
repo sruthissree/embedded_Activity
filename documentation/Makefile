@@ -1,4 +1,4 @@
-DOXY_FILE = Blinky
+DOXY_FILE = Activity_1
 BUILD_FILE = html
 
 FixPath = $(subst /,\,$1)
