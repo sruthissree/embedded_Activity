@@ -1,7 +1,9 @@
 # Activity 1 Seat occupied and Heater ON
 
-|ON|OFF|
-|:--:|:--:|
+|SWITCH 1|ON|OFF|
+|:--:|:--:|:--|
+|SWITCH 2 ON|LED ON|LED OFF|
+|SWITCH 2 OFF|LED OFF|LED OFF|
 
 ## Code 
 ```
