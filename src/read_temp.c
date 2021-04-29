@@ -19,7 +19,7 @@ uint8_t read_ADC(){
     uint16_t digital_value=0; uint8_t temp=0;
     initialise_ADC();
     digital_value = get_digital_value(0);
-    if(digital_value>=0 && digital_value<=200){
+    if(digital_value<=200){
         temp = 20;
     }
     else if(digital_value<=500){
