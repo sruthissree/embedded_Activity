@@ -3,7 +3,7 @@ PROJ_NAME = Activity_1
 BUILD_DIR = Build
 
 # All Source code files
-SRC = main.c src/read_temp.c src/seat_occupancy_heater_on.c
+SRC = main.c src/read_temp.c src/seat_occupancy_heater_on.c src/generate_pwm.c
 
 # All header file paths
 INC = -I inc

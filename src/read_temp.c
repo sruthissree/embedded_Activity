@@ -15,11 +15,21 @@ uint16_t get_digital_value(uint8_t ch){
     return (ADC);
 }
 
-uint16_t read_temperature(){
-    uint16_t digital_value=0;
+uint8_t read_ADC(){
+    uint16_t digital_value=0; uint8_t temp=0;
     initialise_ADC();
     digital_value = get_digital_value(0);
-    _delay_ms(200);
-
-    return digital_value;
+    if(digital_value>=0 && digital_value<=200){
+        temp = 20;
+    }
+    else if(digital_value<=500){
+        temp = 25;
+    }
+    else if(digital_value<=700){
+        temp = 29;
+    }
+    else if (digital_value<=1024){
+        temp = 33;
+    }
+    return temp;
 }

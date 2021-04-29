@@ -3,17 +3,23 @@
 
 #include "seat_occupancy_heater_on.h"
 #include "read_temp.h"
+#include "generate_pwm.h"
 
 int main(void)
 {
 
-    uint16_t temp_in_cel=0;
+    uint8_t temp_in_cel=0,occupancy=0;
 
     while(1)
     {
-        seat_occ_heater_on();
+        occupancy = seat_occ_heater_on();
 
-        temp_in_cel = read_temperature();
+        if(occupancy){
+
+                temp_in_cel = read_ADC();
+
+                generate_pwm_temp(temp_in_cel);
+        }
 
     }
 
