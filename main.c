@@ -1,37 +1,20 @@
-/**
- * @file main.c
- * @author Sruthissree R (sruthissreerangha2000@gmail.com)
- * @brief program to switch ON LED if Seat is occupied and heater turned on
- * @version 0.1
- * @date 2021-04-24
- * 
- * @copyright Copyright (c) 2021
- * 
+/*
  */
 
-#include "Activity_1_header.h"
+#include "seat_occupancy_heater_on.h"
+#include "read_temp.h"
 
 int main(void)
 {
-    DDRB &= ~(1<<PINB0);
-    DDRB &= ~(1<<PINB1);
-    DDRB |=  (1<<PINB2);
+
+    uint16_t temp_in_cel=0;
 
     while(1)
     {
-        if(PINB & (1<<PINB0)){
-            if(PINB & (1<<PINB1)){
-                PORTB |= (1<<PINB2);
-            }
-            else{
-                PORTB &= ~(1<<PINB2);
-            }
-        }
+        seat_occ_heater_on();
 
-        else{
-            PORTB &= ~(1<<PINB2);
-        }
-        _delay_ms(1000);
+        temp_in_cel = read_temperature();
+
     }
 
     return 0;
