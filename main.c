@@ -8,13 +8,13 @@
 int main(void)
 {
 
-    uint8_t temp_in_cel=0,occupancy=0;
+    uint8_t temp_in_cel=0,seat_occupied=0;
 
     while(1)
     {
-        occupancy = seat_occ_heater_on();
+        seat_occupied = seat_occ_heater_on();
 
-        if(occupancy){
+        if(seat_occupied){
 
                 temp_in_cel = read_ADC();
 
