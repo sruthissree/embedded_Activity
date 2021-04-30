@@ -3,7 +3,7 @@
 void display_temp(uint8_t temp){
     USARTInit(103);
     uint8_t i;
-    char ch='1',arr[2];
+    char arr[2];
     arr[1] = int_to_char(temp%10);
     arr[0] = int_to_char(temp/10);
     char *s=" degree Celsius\n";
