@@ -5,7 +5,7 @@
 #include "read_temp.h"
 #include "generate_pwm.h"
 #include "temperature_display.h"
-
+#define F_CPU 16000000UL
 int main(void)
 {
 
