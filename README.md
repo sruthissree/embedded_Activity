@@ -10,9 +10,18 @@
 SEAT OCCUPIED - SWITCH 1
 HEATER ON - SWITCH 2
 
-### In Action
-
 |SEAT OCCUPIED|YES|
 |:--:|:--:|
 |HEATER ON|![op3](https://user-images.githubusercontent.com/80670539/115951982-4f5d5880-a501-11eb-9ccd-ebbf7f8019a9.jpg)|
 
+## Activity 2 - Reading ADC values
+
+![output2](https://user-images.githubusercontent.com/80670539/116731943-011bee00-aa08-11eb-9f78-410294f48e4e.jpg)
+
+## Activity 3 - Generation of PWM
+
+![output2](https://user-images.githubusercontent.com/80670539/116731989-16911800-aa08-11eb-92b4-a19028bb2ed2.jpg)
+
+## Activity 4 - Display of temperature value using USART
+
+![output1](https://user-images.githubusercontent.com/80670539/116732054-2d376f00-aa08-11eb-9477-6b9e9c408209.jpg)
