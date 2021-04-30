@@ -1,0 +1,33 @@
+<circuit noLinStep="10" noLinAcc="5" reactStep="50" speed="1000000" type="simulide_0.1" animate="0">
+ 
+atmega328-5: 
+<item Program="F:/LTTS/Essentials_of_embedded_systems/AVR_projects/Activity_2/Activity_2/bin/Debug/Activity_2.hex" hflip="1" labely="-20" vflip="1" id="atmega328-5" valLabelx="0" Show_id="true" Mhz="16" valLabRot="0" x="-372" valLabely="0" itemtype="AVR" labelrot="0" y="-348" Ser_Monitor="false" Ser_Port="false" objectName="atmega328-5" rotation="0" labelx="0"/>
+ 
+Potentiometer-4: 
+<item hflip="1" Show_res="true" labely="-24" vflip="1" Value_Ohm="374" id="Potentiometer-4" valLabelx="10" Resistance="1" Show_id="false" valLabRot="0" x="-212" valLabely="-20" Unit=" kO" itemtype="Potentiometer" labelrot="0" y="-316" objectName="Potentiometer-4" rotation="0" labelx="-16"/>
+ 
+Fixed Voltage-3: 
+<item hflip="1" labely="-24" vflip="1" Show_Volt="true" id="Fixed Voltage-3" valLabelx="-16" Show_id="false" valLabRot="0" x="-292" valLabely="8" Voltage="5" Unit=" V" itemtype="Fixed Voltage" labelrot="0" y="-348" objectName="Fixed Voltage-3" rotation="0" labelx="-64"/>
+ 
+Ground-2: 
+<item Show_id="false" labelrot="0" id="Ground-2" rotation="0" valLabelx="0" valLabely="0" itemtype="Ground" y="-292" objectName="Ground-2" hflip="1" valLabRot="0" x="-180" labelx="-16" labely="-24" vflip="1"/>
+ 
+Probe-1: 
+<item Show_id="false" labelrot="45" id="Probe-1" rotation="-45" valLabelx="-24" valLabely="3" itemtype="Probe" Show_volt="true" y="-316" objectName="Probe-1" hflip="1" valLabRot="45" x="-292" labelx="16" labely="-16" vflip="1" PlotterCh="0"/>
+ 
+Connector-6: 
+<item hflip="1" labely="-24" startpinid="Potentiometer-4-PinM" vflip="1" id="Connector-6" valLabelx="0" pointList="-212,-300,-332,-300" endpinid="atmega328-5-PC0" Show_id="false" valLabRot="0" x="-212" valLabely="0" itemtype="Connector" labelrot="0" y="-300" enodeid="Circ_eNode-7" objectName="Connector-6" rotation="0" labelx="-16"/>
+ 
+Connector-8: 
+<item hflip="1" labely="-24" startpinid="Fixed Voltage-3-outnod" vflip="1" id="Connector-8" valLabelx="0" pointList="-276,-348,-276,-316,-228,-316" endpinid="Potentiometer-4-PinA" Show_id="false" valLabRot="0" x="-276" valLabely="0" itemtype="Connector" labelrot="0" y="-348" enodeid="Circ_eNode-9" objectName="Connector-8" rotation="0" labelx="-16"/>
+ 
+Connector-10: 
+<item hflip="1" labely="-24" startpinid="Ground-2-Gnd" vflip="1" id="Connector-10" valLabelx="0" pointList="-180,-308,-180,-316,-196,-316" endpinid="Potentiometer-4-PinB" Show_id="false" valLabRot="0" x="-180" valLabely="0" itemtype="Connector" labelrot="0" y="-308" enodeid="Circ_eNode-11" objectName="Connector-10" rotation="0" labelx="-16"/>
+ 
+PlotterWidget-12: 
+<item statusTip="" frameGeometry="" visible="false" windowModified="false" rect="" palette="" enabled="true" inputMethodHints="0" updatesEnabled="true" normalGeometry="" width="200" x="0" layoutDirection="0" sizeHint="" toolTipDuration="-1" whatsThis="" styleSheet="" frameSize="" focus="false" locale="" minimumHeight="200" mouseTracking="false" windowIconText="" windowIcon="" windowFilePath="" isActiveWindow="true" toolTip="" maximumHeight="200" accessibleDescription="" geometry="" childrenRegion="" size="" maximumWidth="1000" minimumSizeHint="" y="0" fullScreen="false" sizeIncrement="" windowTitle="" acceptDrops="false" MinVolt="-500" sizePolicy="" autoFillBackground="false" maximumSize="" cursor="" height="200" pos="" objectName="PlotterWidget-12" accessibleName="" baseSize="" contextMenuPolicy="1" maximized="false" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" minimumWidth="200" minimumSize="" childrenRect="" itemtype="Plotter" modal="false" windowOpacity="1" windowModality="0" MaxVolt="500" focusPolicy="0" minimized="false"/>
+ 
+SerialPortWidget-13: 
+<item statusTip="" frameGeometry="" visible="false" windowModified="false" rect="" palette="" enabled="true" inputMethodHints="0" updatesEnabled="true" normalGeometry="" width="313" x="0" layoutDirection="0" sizeHint="" toolTipDuration="-1" whatsThis="" styleSheet="" frameSize="" focus="false" locale="" minimumHeight="0" mouseTracking="false" windowIconText="" windowIcon="" windowFilePath="" isActiveWindow="true" toolTip="" maximumHeight="170" accessibleDescription="" geometry="" childrenRegion="" SettingsProp=",0,3,0,0,0" size="" maximumWidth="450" minimumSizeHint="" y="0" fullScreen="false" sizeIncrement="" windowTitle="Settings" acceptDrops="false" sizePolicy="" autoFillBackground="false" maximumSize="" cursor="" height="141" pos="" objectName="SerialPortWidget-13" accessibleName="" baseSize="" contextMenuPolicy="1" maximized="false" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" minimumWidth="0" minimumSize="" childrenRect="" itemtype="SerialPort" modal="false" windowOpacity="1" windowModality="0" focusPolicy="0" minimized="false"/>
+ 
+</circuit>
