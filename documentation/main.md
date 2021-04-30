@@ -1,1 +1,0 @@
-@mainpage Seat Occupancy and Heater ON by Sruthissree R @subpage main.c
