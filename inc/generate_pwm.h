@@ -1,3 +1,13 @@
+/**
+ * @file generate_pwm.h
+ * @author Sruthissree R (sruthissreerangha2000@gmail.com)
+ * @brief header file for PWM generation for a given temperature
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #ifndef GENERATE_PWM_H_INCLUDED
 #define GENERATE_PWM_H_INCLUDED
 

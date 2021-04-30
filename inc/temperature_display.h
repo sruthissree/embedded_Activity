@@ -1,3 +1,13 @@
+/**
+ * @file temperature_display.h
+ * @author Sruthissree R (sruthissreerangha2000@gmail.com)
+ * @brief header file to display the temperaturein the Serial Monitor
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #ifndef TEMPERATURE_DISPLAY_H_INCLUDED
 #define TEMPERATURE_DISPLAY_H_INCLUDED
 
