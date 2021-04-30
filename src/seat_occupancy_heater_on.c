@@ -1,6 +1,13 @@
 
 #include "seat_occupancy_heater_on.h"
 
+void init_ip_and_op(){
+
+    DDRB &= ~( 1 << SWITCH1 );
+    DDRD &= ~( 1 << SWITCH2 );
+    DDRB |=  ( 1 << LED );
+}
+
 uint8_t seat_occ_heater_on(){
 
     init_ip_and_op();
@@ -23,9 +30,4 @@ uint8_t seat_occ_heater_on(){
 
 }
 
-void init_ip_and_op(){
 
-    DDRB &= ~( 1 << SWITCH1 );
-    DDRD &= ~( 1 << SWITCH2 );
-    DDRB |=  ( 1 << LED );
-}
